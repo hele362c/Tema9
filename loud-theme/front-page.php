@@ -39,6 +39,10 @@ if ( ( ! is_page_template() || get_option( 'fresh_site' ) ) && ! get_theme_mod( 
 		 */
 		do_action( 'hestia_sections', false );
 
+
+
+
+
 		get_footer();
 
 } else {
