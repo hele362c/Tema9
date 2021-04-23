@@ -55,7 +55,7 @@ do_action( 'hestia_before_single_post_wrapper' );
                         const data = await fetch(dbUrl);
                         pod = await data.json();
 
-                        const data2 = await fetch(dbUrl);
+                        const data2 = await fetch(episodeUrl);
                         episoder = await data2.json();
                         console.log("episoder:", episoder);
 
@@ -75,7 +75,7 @@ do_action( 'hestia_before_single_post_wrapper' );
                         let temp = document.querySelector("template");
                         episoder.forEach(epi => {
                             console.log("loop id:", aktuelpodcast);
-                            if (epi.horer_til_podcast == aktuelpodcast) {
+                            if (epi.horer_til_podcast[0].ID == aktuelpodcast) {
                                 console.log("loop kører id:", aktuelpodcast);
                                 let klon = temp.cloneNode(true).content;
 
