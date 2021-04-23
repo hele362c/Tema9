@@ -5,8 +5,25 @@ Template: hestia
 author: Helena Jakosben
 
 */
+/*forside styling*/
 
 #forside h1 {
+    color: white;
+    font-size: 5rem;
+}
+
+#forside .main {
+    background-color: #1F1F20;
+}
+
+#forside #blog > div > div.row > div > h2 {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#forside #carousel-hestia-generic > div > div > div > div > div.container > div > div.big-title-slider-content.text-right.col-md-7.margin-left-auto > div > a {
+    background-color: #CA2337;
     color: white;
 }
 
