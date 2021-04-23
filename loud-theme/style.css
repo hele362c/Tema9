@@ -6,7 +6,9 @@ author: Helena Jakosben
 
 */
 
-
+#forside h1 {
+    color: red;
+}
 
 body {
     color: white !important;
