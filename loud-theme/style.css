@@ -6,6 +6,9 @@ author: Helena Jakosben
 
 */
 /*forside styling*/
+#forside #first_section {
+    background-image: url(billeder/splashbillede.jpg);
+}
 
 #forside h1 {
     color: white;
