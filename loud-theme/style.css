@@ -9,7 +9,7 @@ author: Helena Jakosben
 
 /*forside styling*/
 #forside #first_section {
-    background-image: url(billeder/splashbillede.jpg);
+    background-image: url(wp-content/themes/loud-theme/billeder/splashbillede.jpg);
 }
 
 #forside h1 {
