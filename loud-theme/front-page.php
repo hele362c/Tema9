@@ -15,6 +15,7 @@
 if ( ( ! is_page_template() || get_option( 'fresh_site' ) ) && ! get_theme_mod( 'disable_frontpage_sections', false ) ) {
 
 		get_header();
+
 		/**
 		 * Hestia Header hook.
 		 *
@@ -22,7 +23,16 @@ if ( ( ! is_page_template() || get_option( 'fresh_site' ) ) && ! get_theme_mod( 
 		 */
 		do_action( 'hestia_header' ); ?>
     <div class="<?php echo esc_attr( hestia_layout() ); ?>">
+
+        <section id="first_section">
+        </section>
+
+
+
+
+
         <?php
+
 		/**
 		 * Hestia Sections hook.
 		 *
