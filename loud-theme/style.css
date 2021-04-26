@@ -226,3 +226,10 @@ footer.footer.footer-black .copyright {
 .blog-post {
     background-color: rgba(0, 0, 0, 0.5) !important;
 }
+
+
+
+/*Profil styling*/
+#profilside {
+    background-image: url(billeder/profil.jpg);
+}
