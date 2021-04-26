@@ -9,9 +9,9 @@ author: Helena Jakosben
 
 /*forside styling*/
 
-
 body {
     background-image: url(billeder/splashbillede.jpg);
+
     width: 98%;
     height: 100%;
     z-index: 10000;
@@ -19,8 +19,6 @@ body {
     margin: 0px;
     padding: 0px
 }
-
-
 
 #forside h1 {
     color: white;
@@ -117,7 +115,6 @@ h4 {
 
 .main {
     background-color: rgba(0, 0, 0, 0.0) !important;
-
 }
 
 .container .pod {
@@ -237,8 +234,6 @@ footer.footer.footer-black .copyright {
 .blog-post {
     background-color: rgba(0, 0, 0, 0.5) !important;
 }
-
-
 
 /*Profil styling*/
 #profilside .wrapper {
