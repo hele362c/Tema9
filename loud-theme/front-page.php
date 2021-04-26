@@ -21,11 +21,11 @@ if ( ( ! is_page_template() || get_option( 'fresh_site' ) ) && ! get_theme_mod( 
 		 * @hooked hestia_slider_section
 		 */
 		do_action( 'hestia_header' ); ?>
-    <section id="first_section">
-    </section>
+
 
     <div class="<?php echo esc_attr( hestia_layout() ); ?>">
-
+        <section id="first_section">
+        </section>
 
 
 
