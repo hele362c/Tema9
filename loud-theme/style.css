@@ -8,9 +8,18 @@ author: Helena Jakosben
 
 
 /*forside styling*/
-#forside #first_section {
-    background-image: url(wp-content/themes/loud-theme/billeder/splashbillede.jpg);
+/*
+#forside body {
+    background-image: url(billeder/splashbillede.jpg);
 }
+*/
+
+body {
+    background-image: url(billeder/splashbillede.jpg);
+
+}
+
+
 
 #forside h1 {
     color: white;
@@ -107,6 +116,7 @@ h4 {
 
 .main {
     background-color: rgba(0, 0, 0, 0.0) !important;
+
 }
 
 .container .pod {
@@ -232,4 +242,6 @@ footer.footer.footer-black .copyright {
 /*Profil styling*/
 #profilside .wrapper {
     background-image: url(billeder/profil.jpg);
+    width: auto;
+    height: 10px;
 }
