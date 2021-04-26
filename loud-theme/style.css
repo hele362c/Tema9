@@ -230,6 +230,6 @@ footer.footer.footer-black .copyright {
 
 
 /*Profil styling*/
-#profilside {
+#profilside .wrapper {
     background-image: url(billeder/profil.jpg);
 }
