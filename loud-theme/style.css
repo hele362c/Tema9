@@ -9,7 +9,7 @@ author: Helena Jakosben
 
 /*forside styling*/
 
-#profilside body {
+body {
     background-image: url(billeder/splashbillede.jpg);
 }
 #forside h1 {
