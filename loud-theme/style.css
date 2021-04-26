@@ -11,6 +11,15 @@ author: Helena Jakosben
 
 body {
     background-image: url(billeder/splashbillede.jpg);
+    /*
+
+    width: 98%;
+    height: 100%;
+    z-index: 10000;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+*/
 }
 #forside h1 {
     color: white;
