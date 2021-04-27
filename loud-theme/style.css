@@ -279,3 +279,8 @@ footer.footer.footer-black .copyright {
     display: grid;
     grid-template-columns: 1fr;
 }
+
+#sendeplanside img {
+    width: auto;
+    height: 10vh;
+}

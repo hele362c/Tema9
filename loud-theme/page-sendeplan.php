@@ -46,29 +46,228 @@ do_action( 'hestia_before_single_page_wrapper' );
                                     Alligevel ved vi hvor vigtigt det er med fornyelse og inspiration.
                                     Vi har alle antenner ude for at finde nye tendenser og produkter, men vi skiller døgnfluer fra succeser.
                                 </p>
+                                <button>Lyt med</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="section_wrapper">
+                        <div class="col_left">
+                            <h3>Kl.10:40</h3>
+                            <div class="image">
+                                <img src="billeder/aldrigmor.png" alt="aldrigmor">
+                            </div>
+                        </div>
+                        <div class="col_right">
+                            <div class="txt">
+
+                                <p>Dine råvarer er vores fokus <br>
+                                    <br>
+
+                                    Vi vægter økologiske råvarer højt, og har danske samt lokale råvarer i centrum.
+                                    Når du køber økologi, er du med til at skabe et bedre miljø og det vil vi hos Ingwersen,
+                                    gerne støtte op om. Vi vil også hjælpe med at slippe kreativiteten løs i køkkenet.
+                                    Derfor rejser vi gerne langt efter traditionelle gode råvarer.
+                                    Alligevel ved vi hvor vigtigt det er med fornyelse og inspiration.
+                                    Vi har alle antenner ude for at finde nye tendenser og produkter, men vi skiller døgnfluer fra succeser.
+                                </p>
+                                <button>Lyt med</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="section_wrapper">
+                        <div class="col_left">
+                            <h3>Kl.11:15</h3>
+                            <div class="image">
+                                <img src="loud-theme/billeder/bare.png" alt="bare">
+                            </div>
+                        </div>
+                        <div class="col_right">
+                            <div class="txt">
+
+                                <p>Dine råvarer er vores fokus <br>
+                                    <br>
+
+                                    Vi vægter økologiske råvarer højt, og har danske samt lokale råvarer i centrum.
+                                    Når du køber økologi, er du med til at skabe et bedre miljø og det vil vi hos Ingwersen,
+                                    gerne støtte op om. Vi vil også hjælpe med at slippe kreativiteten løs i køkkenet.
+                                    Derfor rejser vi gerne langt efter traditionelle gode råvarer.
+                                    Alligevel ved vi hvor vigtigt det er med fornyelse og inspiration.
+                                    Vi har alle antenner ude for at finde nye tendenser og produkter, men vi skiller døgnfluer fra succeser.
+                                </p>
+                                <button>Lyt med</button>
                             </div>
 
                         </div>
                     </div>
                 </section>
-                <!--
-                <section id="first_section">
-                    <h2>Tiden</h2>
+
+
+                <h2>Eftermiddag</h2>
+                <section id="morgen">
                     <div class="section_wrapper">
-                        <div class="row">
-                            <div class="col">
-                                <img src="billeder/aktion.png" alt="">
+                        <div class="col_left">
+                            <h3>Kl.12:15</h3>
+                            <div class="image">
+                                <img src="billeder/aktion.png" alt="aktion">
                             </div>
-                            <div class="col">
-                                <p>tekst omrking podcast</p>
+                        </div>
+                        <div class="col_right">
+                            <div class="txt">
+
+                                <p>Dine råvarer er vores fokus <br>
+                                    <br>
+
+                                    Vi vægter økologiske råvarer højt, og har danske samt lokale råvarer i centrum.
+                                    Når du køber økologi, er du med til at skabe et bedre miljø og det vil vi hos Ingwersen,
+                                    gerne støtte op om. Vi vil også hjælpe med at slippe kreativiteten løs i køkkenet.
+                                    Derfor rejser vi gerne langt efter traditionelle gode råvarer.
+                                    Alligevel ved vi hvor vigtigt det er med fornyelse og inspiration.
+                                    Vi har alle antenner ude for at finde nye tendenser og produkter, men vi skiller døgnfluer fra succeser.
+                                </p>
+                                <button>Lyt med</button>
                             </div>
-                            <div class="col">
-                                <button>lyt knap</button>
+
+                        </div>
+                    </div>
+
+                    <div class="section_wrapper">
+                        <div class="col_left">
+                            <h3>Kl.13:45</h3>
+                            <div class="image">
+                                <img src="billeder/aldrigmor.png" alt="aldrigmor">
                             </div>
+                        </div>
+                        <div class="col_right">
+                            <div class="txt">
+
+                                <p>Dine råvarer er vores fokus <br>
+                                    <br>
+
+                                    Vi vægter økologiske råvarer højt, og har danske samt lokale råvarer i centrum.
+                                    Når du køber økologi, er du med til at skabe et bedre miljø og det vil vi hos Ingwersen,
+                                    gerne støtte op om. Vi vil også hjælpe med at slippe kreativiteten løs i køkkenet.
+                                    Derfor rejser vi gerne langt efter traditionelle gode råvarer.
+                                    Alligevel ved vi hvor vigtigt det er med fornyelse og inspiration.
+                                    Vi har alle antenner ude for at finde nye tendenser og produkter, men vi skiller døgnfluer fra succeser.
+                                </p>
+                                <button>Lyt med</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="section_wrapper">
+                        <div class="col_left">
+                            <h3>Kl.16:15</h3>
+                            <div class="image">
+                                <img src="loud-theme/billeder/bare.png" alt="bare">
+                            </div>
+                        </div>
+                        <div class="col_right">
+                            <div class="txt">
+
+                                <p>Dine råvarer er vores fokus <br>
+                                    <br>
+
+                                    Vi vægter økologiske råvarer højt, og har danske samt lokale råvarer i centrum.
+                                    Når du køber økologi, er du med til at skabe et bedre miljø og det vil vi hos Ingwersen,
+                                    gerne støtte op om. Vi vil også hjælpe med at slippe kreativiteten løs i køkkenet.
+                                    Derfor rejser vi gerne langt efter traditionelle gode råvarer.
+                                    Alligevel ved vi hvor vigtigt det er med fornyelse og inspiration.
+                                    Vi har alle antenner ude for at finde nye tendenser og produkter, men vi skiller døgnfluer fra succeser.
+                                </p>
+                                <button>Lyt med</button>
+                            </div>
+
                         </div>
                     </div>
                 </section>
--->
+
+                <h2>Aften</h2>
+                <section id="morgen">
+                    <div class="section_wrapper">
+                        <div class="col_left">
+                            <h3>Kl.17:30</h3>
+                            <div class="image">
+                                <img src="billeder/aktion.png" alt="aktion">
+                            </div>
+                        </div>
+                        <div class="col_right">
+                            <div class="txt">
+
+                                <p>Dine råvarer er vores fokus <br>
+                                    <br>
+
+                                    Vi vægter økologiske råvarer højt, og har danske samt lokale råvarer i centrum.
+                                    Når du køber økologi, er du med til at skabe et bedre miljø og det vil vi hos Ingwersen,
+                                    gerne støtte op om. Vi vil også hjælpe med at slippe kreativiteten løs i køkkenet.
+                                    Derfor rejser vi gerne langt efter traditionelle gode råvarer.
+                                    Alligevel ved vi hvor vigtigt det er med fornyelse og inspiration.
+                                    Vi har alle antenner ude for at finde nye tendenser og produkter, men vi skiller døgnfluer fra succeser.
+                                </p>
+                                <button>Lyt med</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="section_wrapper">
+                        <div class="col_left">
+                            <h3>Kl.18:15</h3>
+                            <div class="image">
+                                <img src="billeder/aldrigmor.png" alt="aldrigmor">
+                            </div>
+                        </div>
+                        <div class="col_right">
+                            <div class="txt">
+
+                                <p>Dine råvarer er vores fokus <br>
+                                    <br>
+
+                                    Vi vægter økologiske råvarer højt, og har danske samt lokale råvarer i centrum.
+                                    Når du køber økologi, er du med til at skabe et bedre miljø og det vil vi hos Ingwersen,
+                                    gerne støtte op om. Vi vil også hjælpe med at slippe kreativiteten løs i køkkenet.
+                                    Derfor rejser vi gerne langt efter traditionelle gode råvarer.
+                                    Alligevel ved vi hvor vigtigt det er med fornyelse og inspiration.
+                                    Vi har alle antenner ude for at finde nye tendenser og produkter, men vi skiller døgnfluer fra succeser.
+                                </p>
+                                <button>Lyt med</button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="section_wrapper">
+                        <div class="col_left">
+                            <h3>Kl.19:45</h3>
+                            <div class="image">
+                                <img src="loud-theme/billeder/bare.png" alt="bare">
+                            </div>
+                        </div>
+                        <div class="col_right">
+                            <div class="txt">
+
+                                <p>Dine råvarer er vores fokus <br>
+                                    <br>
+
+                                    Vi vægter økologiske råvarer højt, og har danske samt lokale råvarer i centrum.
+                                    Når du køber økologi, er du med til at skabe et bedre miljø og det vil vi hos Ingwersen,
+                                    gerne støtte op om. Vi vil også hjælpe med at slippe kreativiteten løs i køkkenet.
+                                    Derfor rejser vi gerne langt efter traditionelle gode råvarer.
+                                    Alligevel ved vi hvor vigtigt det er med fornyelse og inspiration.
+                                    Vi har alle antenner ude for at finde nye tendenser og produkter, men vi skiller døgnfluer fra succeser.
+                                </p>
+                                <button>Lyt med</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
             </div>
         </div>
         <?php get_footer(); ?>
