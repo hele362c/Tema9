@@ -331,3 +331,8 @@ HEAD #sendeplan img {
     width: auto;
     height: auto;
     object-fit: cover;
+}
+
+#enkeltpodcast .andre_episoder {
+    text-align: center;
+}

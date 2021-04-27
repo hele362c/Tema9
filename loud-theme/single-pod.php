@@ -25,7 +25,7 @@ do_action( 'hestia_before_single_post_wrapper' );
                                 <p class="langtekst"></p>
                             </div>
                         </article>
-                        <h2>Andre Episoder</h2>
+                        <h2 class="andre_episoder">Andre Episoder</h2>
                         <section id="episoder">
                             <template>
                                 <article>
