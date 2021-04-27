@@ -18,14 +18,16 @@ do_action( 'hestia_before_single_post_wrapper' );
 
                 <section id="primary" class="content-area">
                     <main id="main" class="site-main">
-                        <article>
+                        <article class="podcast_article">
                             <img src="" alt="" class="billede">
                             <div>
                                 <h2 class="navn"></h2>
                                 <p class="langtekst"></p>
                             </div>
                         </article>
+
                         <h2 class="andre_episoder">Andre Episoder</h2>
+
                         <section id="episoder">
                             <template>
                                 <article>

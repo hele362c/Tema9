@@ -9,7 +9,7 @@ author: Helena Jakosben
 
 
 /*forside styling*/
-body {
+.page-id-82 {
     background-image: url(billeder/forside.jpg);
     background-repeat: no-repeat;
     background-color: #141519;
@@ -57,7 +57,7 @@ article {
 
 article img {
     width: 200px;
-    height: 300px;
+    height: auto;
     object-fit: cover;
     cursor: pointer;
     box-shadow: 9px 10px 25px 8px rgba(0, 0, 0, 0.7);
@@ -88,7 +88,8 @@ p {
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
-    margin-top: 2vw;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
     text-align: left;
 }
 
@@ -305,14 +306,27 @@ HEAD #sendeplan img {
     margin-bottom: 50px;
 }
 
-#forside button {
+#forside .buttons {
     font-size: 1.5rem;
     text-transform: uppercase;
     margin-bottom: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
 
+#forside .button_live {
+    display: block;
+    margin-left: 29vw;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+}
+
+#forside .button_profil {
+    display: block;
+    margin-left: 29vw;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
 }
 
 #forside p {
@@ -335,4 +349,22 @@ HEAD #sendeplan img {
 
 #enkeltpodcast .andre_episoder {
     text-align: center;
+}
+
+.podcast_article {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    margin-top: 2vw;
+}
+
+#enkeltpodcast h2 {
+    margin-top: 0;
+}
+
+.col-md-offset-2 {
+    margin-left: 0;
+}
+
+.col-md-8 {
+    width: 1000px;
 }
