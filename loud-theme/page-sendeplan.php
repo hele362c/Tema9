@@ -24,11 +24,23 @@ do_action( 'hestia_before_single_page_wrapper' );
 
 
 
+                <h2>Morgen</h2>
+                <section id="first_section">
+                    <h2>Tiden</h2>
+                    <div class="section_wrapper">
+                        <div class="row">
+                            <div class="col">
 
-
-
-
-
+                            </div>
+                            <div class="col">
+                                tekst omrking podcast
+                            </div>
+                            <div class="col">
+                                lyt knap
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
         <?php get_footer(); ?>
