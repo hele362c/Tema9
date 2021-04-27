@@ -9,7 +9,6 @@ author: Helena Jakosben
 
 
 /*forside styling*/
-
 body {
     background-image: url(billeder/forside.jpg);
     background-repeat: no-repeat;
@@ -20,6 +19,10 @@ body {
 
 
 
+.hestia-title {
+    font-size: 10rem;
+    text-transform: uppercase;
+}
 
 #forside h1 {
     color: white;
@@ -62,7 +65,7 @@ article img {
 
 .podcontainer {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     grid-gap: 4vw;
 }
 
@@ -129,18 +132,24 @@ article .bog {
     /*    grid-template-columns: repeat(auto-fill, minmax(354px, 1fr));*/
 }
 
-.bogcontainer {
-    padding-bottom: 10vw;
-    padding-top: 5vw;
-}
+
 
 #filtrering button {
-    margin-left: 1vw;
+    margin-left: 6vw;
+    margin-bottom: 3vh;
+    justify-content: center;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    /*
     margin-right: 1vw;
     font-weight: 500;
     text-transform: uppercase;
     padding-left: 1.65vw;
     padding-right: 1.65vw;
+*/
+
 }
 
 p {
@@ -232,4 +241,98 @@ footer.footer.footer-black .copyright {
     background-color: rgba(0, 0, 0, 0.5) !important;
     padding-bottom: 40px;
     margin-bottom: 10vw;
+}
+
+/*sendeplan styling*/
+
+#sendeplanside h2 {
+    font-size: 3rem;
+    color: white;
+}
+
+#sendeplanside h3 {
+    font-size: 1.5rem;
+    color: white;
+}
+
+
+#morgen .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 40px;
+    border-radius: 25px;
+    background: rgba(0, 0, 0, 0.5);
+
+    padding: 20px;
+    margin-top: 40px;
+}
+
+#morgen .section_wrapper .col_left {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: left;
+}
+
+#morgen .section_wrapper .col_right {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+HEAD #sendeplan img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#profilside .contianer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px 300px 300px;
+}
+
+#profilside img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+#forside h2 {
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+#forside button {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#forside p {
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+#forside .contianer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px 300px 300px;
+}
+
+#forside img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
+}
+
+#enkeltpodcast .andre_episoder {
+    text-align: center;
 }

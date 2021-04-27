@@ -28,5 +28,15 @@ do_action( 'hestia_before_single_page_wrapper' );
 
             </div>
         </div>
+        <h2>Dine favoritter</h2>
+        <div class="contianer">
+
+            <img id="pic1" src="billeder/aktier%20for%20noobies.png">
+            <img id="pic2" src="billeder/aktion.png">
+            <img id="pic3" src="billeder/aldrigmor.png">
+            <img id="pic4" src="billeder/alis%20stemmer.png">
+            <img id="pic5" src="billeder/allcaps.png">
+            <img id="pic6" src="billeder/aloha.png">
+        </div>
         <?php get_footer(); ?>
     </div>
