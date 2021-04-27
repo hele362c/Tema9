@@ -357,6 +357,11 @@ HEAD #sendeplan img {
     margin-top: 2vw;
 }
 
+.podcast_article .billede {
+    height: auto;
+    width: 400px;
+}
+
 #enkeltpodcast h2 {
     margin-top: 0;
 }
