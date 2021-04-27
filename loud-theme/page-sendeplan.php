@@ -30,13 +30,13 @@ do_action( 'hestia_before_single_page_wrapper' );
                     <div class="section_wrapper">
                         <div class="row">
                             <div class="col">
-
+                                <img src="billeder/aktion.png" alt="aktion">
                             </div>
                             <div class="col">
-                                tekst omrking podcast
+                                <p>tekst omrking podcast</p>
                             </div>
                             <div class="col">
-                                lyt knap
+                                <button>lyt knap</button>
                             </div>
                         </div>
                     </div>
