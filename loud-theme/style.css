@@ -9,7 +9,6 @@ author: Helena Jakosben
 
 
 /*forside styling*/
-
 body {
     background-image: url(billeder/forside.jpg);
     background-repeat: no-repeat;
@@ -280,7 +279,7 @@ footer.footer.footer-black .copyright {
     grid-template-columns: 1fr;
 }
 
-#sendeplanside img {
+#sendeplanside .image {
     width: auto;
     height: 10vh;
 }
