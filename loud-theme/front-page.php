@@ -28,10 +28,25 @@ if ( ( ! is_page_template() || get_option( 'fresh_site' ) ) && ! get_theme_mod( 
         </section>
 
 
+        <h2>Populære podcasts</h2>
+        <div class="contianer">
 
+            <img id="pic1" src="billeder/aktier%20for%20noobies.png">
+            <img id="pic2" src="billeder/aktion.png">
+            <img id="pic3" src="billeder/aldrigmor.png">
+            <img id="pic4" src="billeder/alis%20stemmer.png">
+            <img id="pic5" src="billeder/allcaps.png">
+            <img id="pic6" src="billeder/aloha.png">
+        </div>
+        <div>
+            <p>Vores live funktion giver dig mulighed for at være opdateret på de bedste og nyeste podcast</p>
+        </div>
+        <button>Loud Live</button>
 
-
-
+        <div>
+            <p>Udvælg dine favoritter ved at oprette en gratis profil hos Loud</p>
+        </div>
+        <button>Opret profil</button>
 
 
         <?php

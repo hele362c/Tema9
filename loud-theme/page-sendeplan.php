@@ -30,7 +30,7 @@ do_action( 'hestia_before_single_page_wrapper' );
                         <div class="col_left">
                             <h3>Kl.09:15</h3>
                             <div class="image">
-                                <img src="billeder/aktion.png" alt="aktion">
+                                <img src="billeder/bornholm.jpg" alt="aktion">
                             </div>
                         </div>
                         <div class="col_right">

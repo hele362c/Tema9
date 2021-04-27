@@ -264,7 +264,7 @@ footer.footer.footer-black .copyright {
     grid-column-gap: 40px;
     border-radius: 25px;
     background: rgba(0, 0, 0, 0.5);
-    ;
+
     padding: 20px;
     margin-top: 40px;
 }
@@ -280,7 +280,56 @@ footer.footer.footer-black .copyright {
     grid-template-columns: 1fr;
 }
 
-#sendeplanside img {
-    width: auto;
-    height: 10vh;
+#sendeplan img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#profilside .contianer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px 300px 300px;
+}
+
+#profilside img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#forside h2 {
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+#forside button {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#forside p {
+    text-align: center;
+    font-size: 2rem;
+
+}
+
+#forside .contianer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 300px 300px 300px;
+}
+
+#forside img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
