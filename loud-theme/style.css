@@ -36,7 +36,14 @@ author: Helena Jakosben
     background-color: #141519;
 }
 
-.page-id-82 p {
+.main > div:nth-child(4) > p:nth-child(1) {
+    text-align: center;
+    font-size: 1.2vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+.main > div:nth-child(6) > p:nth-child(1) {
     text-align: center;
     font-size: 1.2vw;
     padding-left: 15vw;

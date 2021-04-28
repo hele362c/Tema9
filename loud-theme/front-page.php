@@ -37,7 +37,7 @@ if ( ( ! is_page_template() || get_option( 'fresh_site' ) ) && ! get_theme_mod( 
         <img id="pic6" src="billeder/aloha.png">
     </div>
 
-    <div>
+    <div class="tekst">
         <p>Vores live funktion giver dig mulighed for at være opdateret på de bedste og nyeste podcast</p>
     </div>
     <div class="button_01">
