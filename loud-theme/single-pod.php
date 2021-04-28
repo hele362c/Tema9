@@ -30,9 +30,9 @@ do_action( 'hestia_before_single_post_wrapper' );
 
                         <section id="episoder">
                             <template>
-                                <article>
+                                <article class="andreepisoder_article">
                                     <img src="" alt="" class="episodebillede">
-                                    <div>
+                                    <div class="text_div">
                                         <h2 class="episodenavn"></h2>
                                         <h3 class="episodenr"></h3>
                                         <p class="om_episoden"></p>

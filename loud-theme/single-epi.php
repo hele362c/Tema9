@@ -18,7 +18,7 @@ do_action( 'hestia_before_single_post_wrapper' );
 
                 <section id="primary" class="content-area">
                     <main id="main" class="site-main">
-                        <article>
+                        <article class="singleepi_article">
                             <img src="" alt="" class="billede">
                             <div>
                                 <h2 class="episodenavn"></h2>

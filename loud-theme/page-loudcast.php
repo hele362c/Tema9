@@ -22,7 +22,7 @@ do_action( 'hestia_before_single_page_wrapper' );
         <template>
             <article>
                 <img src="" alt="" class="billede">
-                <h2 class="navn"></h2>
+                <h2 class="podcastnavn"></h2>
                 <h3 class="korttekst"></h3>
             </article>
         </template>

@@ -13,11 +13,24 @@ author: Helena Jakosben
     background-image: url(billeder/forside.jpg);
     background-repeat: no-repeat;
     background-color: #141519;
-
-
 }
 
+.page-id-82 p {
+    text-align: center;
+    font-size: 1.5vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
 
+.button_01 {
+    text-align: center;
+    margin-bottom: 6vw;
+}
+
+.button_02 {
+    text-align: center;
+    margin-bottom: 6vw;
+}
 
 .hestia-title {
     font-size: 10rem;
@@ -52,24 +65,32 @@ body {
 article {
     display: flex !important;
     flex-direction: column;
-    justify-content: space-between;
+    /*  justify-content: space-between;*/
 }
 
 article img {
-    width: 200px;
+    width: 21vw;
     height: auto;
     object-fit: cover;
     cursor: pointer;
-    box-shadow: 9px 10px 25px 8px rgba(0, 0, 0, 0.7);
+    box-shadow: 3px 2px 15px 1px rgba(0, 0, 0, 0.7);
 }
 
 .podcontainer {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    grid-gap: 4vw;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 2vw;
+    padding: 7px;
 }
 
+.navn {
+    margin-top: 9;
+    margin-bottom: 0.5vw;
+}
 
+#filtrering {
+    text-align: center;
+}
 
 h6 {
     font-family: 'Frank Ruhl Libre', serif;
@@ -124,10 +145,6 @@ h4 {
     background-color: rgba(0, 0, 0, 0.0) !important;
 }
 
-.container .bog {
-    color: white;
-}
-
 article .bog {
     display: flex;
     /*    grid-template-columns: repeat(auto-fill, minmax(354px, 1fr));*/
@@ -136,21 +153,13 @@ article .bog {
 
 
 #filtrering button {
-    margin-left: 6vw;
-    margin-bottom: 3vh;
+    margin-left: 0.9vw;
+    margin-bottom: 1vw;
     justify-content: center;
     font-weight: 500;
-    text-transform: uppercase;
+    text-transform: capitalize;
     padding-left: 1vw;
     padding-right: 1vw;
-    /*
-    margin-right: 1vw;
-    font-weight: 500;
-    text-transform: uppercase;
-    padding-left: 1.65vw;
-    padding-right: 1.65vw;
-*/
-
 }
 
 p {
@@ -306,49 +315,32 @@ HEAD #sendeplan img {
     margin-bottom: 50px;
 }
 
-#forside .buttons {
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    margin-bottom: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-#forside .button_live {
-    display: block;
-    margin-left: 29vw;
-    margin-bottom: 2vw;
-    margin-top: 2vw;
-}
-
-#forside .button_profil {
-    display: block;
-    margin-left: 29vw;
-    margin-bottom: 2vw;
-    margin-top: 2vw;
-}
-
-#forside p {
-    text-align: center;
-    font-size: 2rem;
-
-}
-
-#forside .contianer {
+.contianer_forside {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 2vw;
+    padding: 7px;
+    margin-bottom: 6vw;
 }
 
-#forside img {
-    width: auto;
-    height: auto;
-    object-fit: cover;
+.Populaere_podcast {
+    font-size: 3em;
+    margin-bottom: 2vw;
+    margin-top: 2vw;
+    margin-left: 0.4vw;
 }
 
 #enkeltpodcast .andre_episoder {
     text-align: center;
+    margin-top: 4vw;
+}
+
+.author {
+    opacity: 1%;
+}
+
+#enkeltpodcast .andre_episoder {
+    font-size: 37px;
 }
 
 .podcast_article {
@@ -362,8 +354,39 @@ HEAD #sendeplan img {
     width: 400px;
 }
 
-#enkeltpodcast h2 {
-    margin-top: 0;
+.andreepisoder_article {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    margin-top: 2vw;
+}
+
+.episodenavn {
+    margin-top: 0.2vw;
+    margin-bottom: 1vw;
+}
+
+.episodenr {
+    margin-bottom: 0.5vw;
+}
+
+.episodebillede {
+    width: 18vw;
+}
+
+.singleepi_article {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    margin-top: 2vw;
+}
+
+.singleepi_article .billede {
+    height: auto;
+    width: 400px;
+}
+
+.text_div {
+    margin-left: -7vw;
+    margin-right: 1vw;
 }
 
 .col-md-offset-2 {
@@ -371,5 +394,23 @@ HEAD #sendeplan img {
 }
 
 .col-md-8 {
-    width: 1000px;
+    width: 945px;
+}
+
+table > tbody > tr {
+    border-bottom: 0;
+    background-color: #d3d3d31f;
+}
+
+.blog-post .section-text p {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.section {
+    padding: 35px 0;
+}
+
+.page-header.header-small .container {
+    padding-bottom: 6vw !important;
 }
