@@ -11,7 +11,7 @@ author: Helena Jakosben
 /*--------------forside styling----------------*/
 
 .page-id-191 {
-    background-image: url(billeder/pod_splash.jpg);
+    background-image: url(billeder/podpod_splash.jpg);
     background-repeat: no-repeat;
     background-color: #141519;
     /* background-size: cover;
@@ -219,21 +219,6 @@ p {
 
 .page-header.header-small {
     min-height: 170px;
-}
-
-footer.footer.footer-black {
-    background-color: #F4EEED;
-}
-
-footer.footer.footer-black h5,
-footer.footer.footer-black h4,
-footer.footer.footer-black i,
-footer.footer.footer-black .copyright {
-    color: black;
-}
-
-.footer-big .footer-menu li {
-    display: none;
 }
 
 .hoejre {
