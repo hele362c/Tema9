@@ -10,10 +10,12 @@ author: Helena Jakosben
 
 /*forside styling*/
 
-.page-id-82 .hestia-title {
-    font-size: 10rem;
+.page-header .container .hestia-title {
+    font-size: 4.5vw;
     text-align: left;
+
 }
+
 
 .page-id-82 {
     background-image: url(billeder/forside.jpg);
