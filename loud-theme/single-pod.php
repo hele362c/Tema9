@@ -18,9 +18,12 @@ do_action( 'hestia_before_single_post_wrapper' );
 
                 <section id="primary" class="content-area">
                     <main id="main" class="site-main">
+                        <div id="tilbage_knap">
+                            <button class="valgt">Tilbage</button>
+                        </div>
                         <article class="podcast_article">
                             <img src="" alt="" class="billede">
-                            <div>
+                            <div class="text_div2">
                                 <h2 class="navn"></h2>
                                 <p class="langtekst"></p>
                             </div>
@@ -94,8 +97,17 @@ do_action( 'hestia_before_single_post_wrapper' );
                                     klon.querySelector("article").href = epi.link;
                                     console.log("epi", epi.link);
                                     container.appendChild(klon);
+
+
                                 }
                             })
+                            document.querySelector(".valgt").addEventListener("click", tilbageTilMenu);
+                        }
+
+                        function tilbageTilMenu() {
+                            console.log("tilbageTilMenu");
+                            history.back();
+
                         }
 
                         getJSON();

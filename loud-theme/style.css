@@ -316,30 +316,50 @@ table > tbody > tr {
 
 /*--------------PROFIL STYLING SLUT----------------*/
 /*--------------SINGLE POD STYLING START----------------*/
+.valgt {
+    position: relative;
+    top: -7vw;
+}
+
 #enkeltpodcast .andre_episoder {
     text-align: center;
-    margin-top: 4vw;
+    margin-top: 10vw;
 }
 
 #enkeltpodcast .andre_episoder {
     font-size: 37px;
 }
 
+#enkeltpodcast .page-header.header-small .container .hestia-title {
+    opacity: 0;
+    font-size: 1px;
+}
+
+#enkeltpodcast .navn {
+    margin-top: 0;
+    font-size: 4rem;
+    margin-bottom: 2vw;
+}
+
 .podcast_article {
     display: grid !important;
     grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
-    margin-top: 2vw;
+    margin-top: -5vw;
+    background-color: #d3d3d31f;
+
 }
 
 .podcast_article .billede {
     height: auto;
     width: 400px;
+    margin: 1vw;
 }
 
 .andreepisoder_article {
     display: grid !important;
     grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
     margin-top: 2vw;
+    background-color: #d3d3d31f;
 }
 
 .episodenavn {
@@ -353,11 +373,19 @@ table > tbody > tr {
 
 .episodebillede {
     width: 18vw;
+    margin: 1vw;
 }
 
 .text_div {
     margin-left: -7vw;
     margin-right: 1vw;
+    margin-top: 1vw;
+}
+
+.text_div2 {
+    margin-left: -1vw;
+    margin-right: 1vw;
+    margin-top: 1vw;
 }
 
 /*--------------SINGLE POD STYLING SLUT----------------*/
