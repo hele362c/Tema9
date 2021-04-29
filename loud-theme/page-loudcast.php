@@ -83,7 +83,7 @@ do_action( 'hestia_before_single_page_wrapper' );
                         if (filterPod == "alle" || pod.categories.includes(parseInt(filterPod))) {
                             let klon = temp.cloneNode(true).content;
                             klon.querySelector(".billede").src = pod.billede.guid;
-                            klon.querySelector(".navn").textContent = pod.title.rendered;
+                            klon.querySelector(".podcastnavn").textContent = pod.title.rendered;
                             klon.querySelector(".korttekst").textContent = pod.korttekst;
                             klon.querySelector("article").addEventListener("click", () => {
                                 location.href = pod.link;
