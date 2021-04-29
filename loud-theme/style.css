@@ -422,6 +422,8 @@ table > tbody > tr {
     padding-bottom: 6vw !important;
 }
 
+
+
 @media (min-width: 992px) {
     .col-md-7 {
         width: 200%;
