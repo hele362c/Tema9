@@ -431,13 +431,16 @@ table > tbody > tr {
     padding-bottom: 6vw !important;
 }
 
-<<<<<<< HEAD
 
-=======
+/*
 footer.footer.footer-black {
     margin-top: 10vw;
 }
->>>>>>> origin/master
+*/
+
+.footer-big p {
+    color: white;
+}
 
 @media (min-width: 992px) {
     .col-md-7 {
