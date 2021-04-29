@@ -29,12 +29,15 @@ if ( ( ! is_page_template() || get_option( 'fresh_site' ) ) && ! get_theme_mod( 
 
     <h2 class="Populaere_podcast">Populære podcasts</h2>
     <div class="contianer_forside">
-        <img id="pic1" src="billeder/aloha.png">
-        <img id="pic2" src="billeder/aktion.png">
-        <img id="pic3" src="billeder/aldrigmor.png">
-        <img id="pic4" src="billeder/alis_stemmer.png">
-        <img id="pic5" src="billeder/allcaps.png">
-        <img id="pic6" src="billeder/aloha.png">
+        <a href="http://helenajakobsen.com/02_kea/02_semester/tema9/radio_loud/loud/wordpress/pod/aktier-for-noobies/"><img id="pic1" src="billeder/aktier_for_noobies.png"></a>
+        <a href="http://helenajakobsen.com/02_kea/02_semester/tema9/radio_loud/loud/wordpress/pod/aktion/"><img id="pic2" src="billeder/aktion.png"></a>
+        <a href="http://helenajakobsen.com/02_kea/02_semester/tema9/radio_loud/loud/wordpress/pod/aldrig-mor/"><img id="pic3" src="billeder/aldrigmor.png"></a>
+        <a href="http://helenajakobsen.com/02_kea/02_semester/tema9/radio_loud/loud/wordpress/pod/alis-stemmer/"><img id="pic4" src="billeder/alis_stemmer.png"></a>
+
+
+        <a href="http://helenajakobsen.com/02_kea/02_semester/tema9/radio_loud/loud/wordpress/pod/all-caps/"><img id="pic5" src="billeder/allcaps.png"></a>
+
+        <a href="http://helenajakobsen.com/02_kea/02_semester/tema9/radio_loud/loud/wordpress/pod/aloha/"><img id="pic6" src="billeder/aloha.png"></a>
     </div>
 
     <div class="tekst">

@@ -11,14 +11,14 @@ author: Helena Jakosben
 /*--------------forside styling----------------*/
 
 .page-id-191 {
-    background-image: url(billeder/pod_splash1.jpg);
+    background-image: url(billeder/loudcast_splash.jpg);
     background-repeat: no-repeat;
     background-color: #141519;
     /* background-size: cover;
  background-position: 20% 10%;*/
 }
 
-.page-header .container .hestia-title {
+.page-id-82 .page-header .container .hestia-title {
     font-size: 4vw;
     text-align: center;
     margin-top: 2vw !important;
@@ -34,6 +34,10 @@ author: Helena Jakosben
     background-image: url(billeder/forside.jpg);
     background-repeat: no-repeat;
     background-color: #141519;
+}
+
+.page-id-82 .main {
+    margin-top: 1vw;
 }
 
 .main > div:nth-child(4) > p:nth-child(1) {
@@ -64,15 +68,6 @@ author: Helena Jakosben
     font-size: 20rem;
     text-transform: uppercase;
     text-align: left;
-}
-
-
-/*
-#forside #blog > div > div.row > div > h2 {
-    color: white;
-    text-align: center;
-    font-size: 2rem;
-*/
 }
 
 #forside #carousel-hestia-generic > div > div > div > div > div.container > div > div.big-title-slider-content.text-right.col-md-7.margin-left-auto > div > a {
@@ -106,6 +101,11 @@ article img {
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     grid-gap: 2vw;
     padding: 7px;
+}
+
+.podcastnavn {
+    margin-top: 1vw;
+    margin-bottom: 1vw;
 }
 
 .navn {
@@ -361,6 +361,10 @@ HEAD #sendeplan img {
     width: 400px;
 }
 
+.page-header.header-small .container .hestia-title {
+    text-align: center;
+}
+
 .andreepisoder_article {
     display: grid !important;
     grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
@@ -414,6 +418,11 @@ table > tbody > tr {
     font-size: 1.5em;
 }
 
+.page-id-96 .blog-post .section-text h2 {
+    font-size: 1.5em;
+    margin-bottom: 3.5vw !important;
+}
+
 .section {
     padding: 35px 0;
 }
@@ -422,7 +431,13 @@ table > tbody > tr {
     padding-bottom: 6vw !important;
 }
 
+<<<<<<< HEAD
 
+=======
+footer.footer.footer-black {
+    margin-top: 10vw;
+}
+>>>>>>> origin/master
 
 @media (min-width: 992px) {
     .col-md-7 {
