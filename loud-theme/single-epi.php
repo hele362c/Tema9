@@ -18,9 +18,12 @@ do_action( 'hestia_before_single_post_wrapper' );
 
                 <section id="primary" class="content-area">
                     <main id="main" class="site-main">
+                        <div id="tilbage_knap">
+                            <button class="valgt">Tilbage</button>
+                        </div>
                         <article class="singleepi_article">
                             <img src="" alt="" class="billede">
-                            <div>
+                            <div class="epitext_div">
                                 <h2 class="episodenavn"></h2>
                                 <h3 class="episodenr"></h3>
                                 <p class="om_episoden"></p>
@@ -65,6 +68,13 @@ do_action( 'hestia_before_single_post_wrapper' );
                                     container.appendChild(klon);
                                     console.log("epi", epi.link);
                                 })*/
+                            document.querySelector(".valgt").addEventListener("click", tilbageTilMenu);
+                        }
+
+                        function tilbageTilMenu() {
+                            console.log("tilbageTilMenu");
+                            history.back();
+
                         }
                         getJSON();
 
