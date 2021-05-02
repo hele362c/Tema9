@@ -598,6 +598,10 @@ footer.footer.footer-black {
         font-size: 33px;
     }
 
+    #enkeltpodcast article {
+        margin: 2vw -2vw;
+    }
+
     /*-----ENKELT EPISODE SIDEN------*/
     .singleepi_article {
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -619,7 +623,8 @@ footer.footer.footer-black {
         padding-bottom: 0 !important;
     }
 
-    article {
+    #enkelepisode article {
         margin: 2vw -2vw;
     }
+
 }
