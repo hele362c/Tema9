@@ -559,7 +559,7 @@ footer.footer.footer-black {
     }
 
     .podcast_article .billede {
-        width: 289px
+        width: 97%;
     }
 
     .podcast_article {
@@ -579,7 +579,7 @@ footer.footer.footer-black {
     }
 
     .episodebillede {
-        width: 289px;
+        width: 97%;
     }
 
     #enkeltpodcast #primary {
@@ -604,7 +604,7 @@ footer.footer.footer-black {
     }
 
     .singleepi_article .billede {
-        width: 289px;
+        width: 97%;
     }
 
     .epitext_div {
@@ -617,5 +617,9 @@ footer.footer.footer-black {
 
     #enkelepisode .page-header.header-small .container {
         padding-bottom: 0 !important;
+    }
+
+    article {
+        margin: 2vw -2vw;
     }
 }
