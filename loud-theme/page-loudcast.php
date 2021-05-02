@@ -19,6 +19,7 @@ do_action( 'hestia_before_single_page_wrapper' );
 		$class_to_add = 'blog-post-wrapper';
 	}
 	?>
+        <h1 class="podcast_title">Podcast</h1>
         <template>
             <article>
                 <img src="" alt="" class="billede">
