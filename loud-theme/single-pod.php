@@ -14,9 +14,7 @@ do_action( 'hestia_before_single_post_wrapper' );
 
     <head>
 
-        <meta name="description" content="Radio loud">
-        <meta name="robots" content="noindex, nofollow">
-
+        <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, dicta minima recusandae error beatae id, incidunt delectus natus. Repudiandae, inventore, culpa. Animi voluptate reiciendis atque. Quos cumque laudantium, voluptatem ullam!">
     </head>
     <div class="<?php echo hestia_layout(); ?>">
         <div class="blog-post blog-post-wrapper">
