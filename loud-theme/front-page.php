@@ -23,6 +23,11 @@ if ( ( ! is_page_template() || get_option( 'fresh_site' ) ) && ! get_theme_mod( 
 
 
 <div class="<?php echo esc_attr( hestia_layout() ); ?>">
+
+    <head>
+
+        <meta name="description" content="Radio loud">
+    </head>
     <section id="first_section">
     </section>
 
