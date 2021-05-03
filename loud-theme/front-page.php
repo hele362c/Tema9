@@ -52,7 +52,7 @@ if ( ( ! is_page_template() || get_option( 'fresh_site' ) ) && ! get_theme_mod( 
     <div class="button_01">
         <button class="button_live">Loud Live</button>
     </div>
-    <div class="tekst">
+    <div>
         <p>Udvælg dine favoritter ved at oprette en gratis profil hos Loud</p>
     </div>
     <div class="button_02">
