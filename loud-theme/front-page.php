@@ -40,9 +40,9 @@ if ( ( ! is_page_template() || get_option( 'fresh_site' ) ) && ! get_theme_mod( 
         <a href="http://helenajakobsen.com/02_kea/02_semester/tema9/radio_loud/loud/wordpress/pod/alis-stemmer/"><img id="pic4" src="billeder/alis_stemmer.png" alt="pic4"></a>
 
 
-        <a href="http://helenajakobsen.com/02_kea/02_semester/tema9/radio_loud/loud/wordpress/pod/all-caps/"><img id="pic5" src="billeder/allcaps.png"></a>
+        <a href="http://helenajakobsen.com/02_kea/02_semester/tema9/radio_loud/loud/wordpress/pod/all-caps/"><img id="pic5" src="billeder/allcaps.png" alt="pic5"></a>
 
-        <a href="http://helenajakobsen.com/02_kea/02_semester/tema9/radio_loud/loud/wordpress/pod/aloha/"><img id="pic6" src="billeder/aloha.png"></a>
+        <a href="http://helenajakobsen.com/02_kea/02_semester/tema9/radio_loud/loud/wordpress/pod/aloha/"><img id="pic6" src="billeder/aloha.png" alt="pic6"></a>
     </div>
 
     <div class="tekst">
