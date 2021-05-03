@@ -27,7 +27,8 @@ if ( ( ! is_page_template() || get_option( 'fresh_site' ) ) && ! get_theme_mod( 
     <head>
 
         <meta name="description" content="Radio loud">
-        <meta name="robots" content="noindex, nofollow">    </head>
+        <meta name="robots" content="noindex, nofollow">
+    </head>
     <section id="first_section">
     </section>
 
@@ -51,7 +52,7 @@ if ( ( ! is_page_template() || get_option( 'fresh_site' ) ) && ! get_theme_mod( 
     <div class="button_01">
         <button class="button_live">Loud Live</button>
     </div>
-    <div>
+    <div class="tekst">
         <p>Udvælg dine favoritter ved at oprette en gratis profil hos Loud</p>
     </div>
     <div class="button_02">
