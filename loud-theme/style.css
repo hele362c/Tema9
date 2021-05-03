@@ -28,6 +28,7 @@ author: Helena Jakosben
 .page-header .container .hestia-title,
 .page-header .container .title {
     margin: 0;
+    opacity: 0;
 }
 
 .carousel .page-header .row {
@@ -111,10 +112,6 @@ p {
     height: 0;
 }
 
-.page-header {
-    border-bottom: 0px;
-}
-
 .navbar-default {
     background-color: rgba(0, 0, 0, 0.0) !important;
 }
@@ -159,6 +156,7 @@ body {
     text-align: center;
     margin-top: 2vw !important;
     margin-left: -9vw !important;
+    opacity: 100;
 
 }
 
@@ -223,10 +221,16 @@ body {
 
 /*--------------FORSIDE STYLING SLUT-----------------*/
 /*--------------PODCAST STYLING START----------------*/
+.podcast_title {
+    text-align: center;
+    margin-bottom: 3vw;
+}
+
 .page-id-191 {
-    background-image: url(billeder/LOUD%20wave.png);
+    background-image: url(billeder/splashny.jpg);
     background-repeat: no-repeat;
     background-color: #141519;
+    margin-top: 12vw;
     /* background-size: cover;
  background-position: 20% 10%;*/
 }
@@ -297,21 +301,26 @@ table > tbody > tr {
 
 /*--------------SENDEPLAN STYLING SLUT----------------*/
 /*--------------PROFIL STYLING START------------------*/
-#profilside .contianer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 300px 300px 300px;
-}
-
-#profilside img {
-    width: auto;
-    height: auto;
-    object-fit: cover;
-}
-
 .page-id-96 .blog-post .section-text h2 {
     font-size: 1.5em;
     margin-bottom: 3.5vw !important;
+}
+
+.col-md-8 {
+    width: 100%;
+}
+
+.page-id-96 .page-header {
+    margin: 0;
+}
+
+.page-id-96 .section {
+    padding: 0;
+    margin: 0;
+}
+
+.page-id-96 #primary {
+    min-height: 115px !important;
 }
 
 /*--------------PROFIL STYLING SLUT----------------------*/
@@ -423,10 +432,6 @@ table > tbody > tr {
     margin-left: 0;
 }
 
-.col-md-8 {
-    width: 945px;
-}
-
 .blog-post .section-text p {
     text-align: center;
     font-size: 1.5em;
@@ -461,4 +466,165 @@ footer.footer.footer-black {
     .col-md-7 {
         width: 200%;
     }
+}
+
+/*--------------Mobil version----------------*/
+@media (max-width: 768px) {
+
+    /*-------navigationsbar i burgermenu sort bagrrund-------*/
+    .navbar.navbar-fixed-top .navbar-collapse {
+        background: black;
+    }
+
+    .navbar .navbar-header .navbar-brand {
+        padding-left: 10px;
+    }
+
+    .page-header {
+        margin: 87px 0 20px;
+    }
+
+    /*-------FORSIDE--------*/
+    .carousel .buttons {
+        margin-right: 3.5vw;
+        margin-top: 26px;
+    }
+
+    .carousel .page-header .row {
+        padding-left: 38vw;
+    }
+
+    .container {
+        max-height: 66vw;
+
+    }
+
+    .page-id-82 .page-header .container .hestia-title {
+        margin-left: -4vw !important;
+        margin-top: -3vw !important;
+    }
+
+    .Populaere_podcast {
+        text-align: center;
+        margin-bottom: 4w;
+        margin-top: 4vw;
+        font-size: 2em;
+    }
+
+    .contianer_forside {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    }
+
+    .main > div:nth-child(4) > p:nth-child(1) {
+        font-size: 3vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
+    .main > div:nth-child(6) > p:nth-child(1) {
+        font-size: 3vw;
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
+    /*-------GENERELT------*/
+    body {
+        margin: 10vw 8vw 0vw 8vw;
+    }
+
+    /*-----PODCAST SIDEN------*/
+    article img {
+        width: 139vw;
+    }
+
+    .page-header.header-small .container {
+        padding-bottom: 44vw !important;
+    }
+
+    .podcontainer {
+        grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    }
+
+    article {
+        margin: 2vw 1vw;
+    }
+
+    #filtrering button {
+        padding: 8px 6px;
+    }
+
+    /*-----ENKELT PODCAST SIDEN------*/
+    .text_div2 {
+        margin-left: 3vw;
+    }
+
+    .podcast_article .billede {
+        width: 97%;
+    }
+
+    .podcast_article {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+
+    #enkeltpodcast .navn {
+        font-size: 6vw;
+    }
+
+    .andreepisoder_article {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+
+    .text_div {
+        margin-left: 2vw;
+    }
+
+    .episodebillede {
+        width: 97%;
+    }
+
+    #enkeltpodcast #primary {
+        min-height: 0 !important;
+    }
+
+    #enkeltpodcast .page-header.header-small .container {
+        padding-bottom: 0 !important;
+    }
+
+    .valgt {
+        left: 1vw;
+    }
+
+    #enkeltpodcast .andre_episoder {
+        font-size: 33px;
+    }
+
+    #enkeltpodcast article {
+        margin: 2vw -2vw;
+    }
+
+    /*-----ENKELT EPISODE SIDEN------*/
+    .singleepi_article {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+
+    .singleepi_article .billede {
+        width: 97%;
+    }
+
+    .epitext_div {
+        margin-left: 1vw;
+    }
+
+    #enkelepisode #primary {
+        min-height: 0 !important;
+    }
+
+    #enkelepisode .page-header.header-small .container {
+        padding-bottom: 0 !important;
+    }
+
+    #enkelepisode article {
+        margin: 2vw -2vw;
+    }
+
 }
