@@ -174,19 +174,20 @@ body {
     margin-top: 1vw;
 }
 
-.main > div:nth-child(4) > p:nth-child(1) {
+.forside_p1 {
     text-align: center;
     font-size: 1.2vw;
     padding-left: 15vw;
     padding-right: 15vw;
 }
 
-.main > div:nth-child(6) > p:nth-child(1) {
+.forside_p2 {
     text-align: center;
     font-size: 1.2vw;
     padding-left: 15vw;
     padding-right: 15vw;
 }
+
 
 .button_01 {
     text-align: center;
@@ -227,7 +228,7 @@ body {
 }
 
 .page-id-191 {
-    background-image: url(billeder/splashny.jpg);
+    background-image: url(billeder/pod1.jpg);
     background-repeat: no-repeat;
     background-color: #141519;
     margin-top: 12vw;
@@ -515,13 +516,13 @@ footer.footer.footer-black {
         grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
     }
 
-    .main > div:nth-child(4) > p:nth-child(1) {
+    .forside_p1 {
         font-size: 3vw;
         padding-left: 10vw;
         padding-right: 10vw;
     }
 
-    .main > div:nth-child(6) > p:nth-child(1) {
+    .forside_p2 {
         font-size: 3vw;
         padding-left: 10vw;
         padding-right: 10vw;
@@ -625,6 +626,60 @@ footer.footer.footer-black {
 
     #enkelepisode article {
         margin: 2vw -2vw;
+    }
+
+    /*-------FOOTER---------*/
+
+    .page-id-191 footer.footer.footer-black {
+        margin-top: 23vw;
+    }
+
+    .page-id-191 .footer.footer-big {
+        padding: 30px 0 10px;
+    }
+
+    .page-id-77 footer.footer.footer-black {
+        margin-top: 572vw;
+    }
+
+    .page-id-77 .footer.footer-big {
+        padding: 30px 0 10px;
+    }
+
+    .page-id-96 footer.footer.footer-black {
+        margin-top: 25vw;
+    }
+
+    .page-id-96 .footer.footer-big {
+        padding: 30px 0 10px;
+    }
+
+    .page-id-82 footer.footer.footer-black {
+        margin-top: 25vw;
+    }
+
+    .page-id-82 .footer.footer-big {
+        padding: 30px 0 545px;
+    }
+
+    #enkeltpodcast footer.footer.footer-black {
+        margin-top: 25vw;
+    }
+
+    #enkeltpodcast .footer.footer-big {
+        padding: 30px 0 575px;
+    }
+
+    #enkelepisode footer.footer.footer-black {
+        margin-top: 25vw;
+    }
+
+    #enkelepisode .footer.footer-big {
+        padding: 30px 0 575px;
+    }
+
+    #page-id-77 .page-header.header-small .container {
+        padding-bottom: 22vw !important;
     }
 
 }

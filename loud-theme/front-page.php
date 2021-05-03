@@ -46,13 +46,15 @@ if ( ( ! is_page_template() || get_option( 'fresh_site' ) ) && ! get_theme_mod( 
         <a href="http://helenajakobsen.com/02_kea/02_semester/tema9/radio_loud/loud/wordpress/pod/aloha/"><img id="pic6" src="billeder/aloha.png" alt="pic6"></a>
     </div>
 
-    <div class="tekst">
+    <div class="forside_p1">
         <p>Vores live funktion giver dig mulighed for at være opdateret på de bedste og nyeste podcast</p>
     </div>
     <div class="button_01">
         <button class="button_live">Loud Live</button>
     </div>
-    <div>
+
+
+    <div class="forside_p2">
         <p>Udvælg dine favoritter ved at oprette en gratis profil hos Loud</p>
     </div>
     <div class="button_02">
