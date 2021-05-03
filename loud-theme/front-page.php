@@ -27,7 +27,7 @@ if ( ( ! is_page_template() || get_option( 'fresh_site' ) ) && ! get_theme_mod( 
     <head>
 
         <meta name="description" content="Radio loud">
-    </head>
+        <meta name="robots" content="noindex, nofollow">    </head>
     <section id="first_section">
     </section>
 

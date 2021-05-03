@@ -23,6 +23,8 @@ do_action( 'hestia_before_single_page_wrapper' );
         <head>
 
             <meta name="description" content="Radio loud">
+            <meta name="robots" content="noindex, nofollow">
+
         </head>
         <h1 class="podcast_title">Podcast</h1>
         <template>

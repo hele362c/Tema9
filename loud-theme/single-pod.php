@@ -15,6 +15,8 @@ do_action( 'hestia_before_single_post_wrapper' );
     <head>
 
         <meta name="description" content="Radio loud">
+        <meta name="robots" content="noindex, nofollow">
+
     </head>
     <div class="<?php echo hestia_layout(); ?>">
         <div class="blog-post blog-post-wrapper">
