@@ -19,6 +19,11 @@ do_action( 'hestia_before_single_page_wrapper' );
 		$class_to_add = 'blog-post-wrapper';
 	}
 	?>
+
+        <head>
+
+            <meta name="description" content="Radio loud">
+        </head>
         <h1 class="podcast_title">Podcast</h1>
         <template>
             <article>

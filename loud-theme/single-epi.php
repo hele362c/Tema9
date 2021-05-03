@@ -12,6 +12,11 @@ get_header();
 do_action( 'hestia_before_single_post_wrapper' );
 ?>
 
+    <head>
+
+        <meta name="description" content="Radio loud">
+    </head>
+
     <div class="<?php echo hestia_layout(); ?>">
         <div class="blog-post blog-post-wrapper">
             <div class="container">
