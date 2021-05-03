@@ -26,8 +26,7 @@ if ( ( ! is_page_template() || get_option( 'fresh_site' ) ) && ! get_theme_mod( 
 
     <head>
 
-        <meta name="description" content="Radio loud">
-        <meta name="robots" content="noindex, nofollow">
+        <meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, dicta minima recusandae error beatae id, incidunt delectus natus. Repudiandae, inventore, culpa. Animi voluptate reiciendis atque. Quos cumque laudantium, voluptatem ullam!">
     </head>
     <section id="first_section">
     </section>
